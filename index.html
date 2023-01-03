@@ -36,32 +36,40 @@
       
       <div class="container mb-2 p-2 border-spacing-2 border border-danger rounded bg-blue bg-dark bg-opacity-10">
       <div class="container row3 row m-2">
-                <div class="afterTax col-md col-sm col form-floating placeholder:text-center">
-                  <input type="number" class="form-control " id="afterTax" value="" placeholder="Ex: " onkeyup="taxing();">
-                  <label for="afterTax"> المبلغ شامل الضريبة </label>
-                </div>
-                <div class="tax col-md col-sm col form-floating placeholder:text-center">
+            <div class="container row3 row m-2">
+              <div class="afterTax col-md col-sm col form-floating placeholder:text-center text-center">
+                <input type="number" class="form-control " id="afterTax" value="" placeholder="Ex: " onkeyup="taxing();">
+                <label for="afterTax"> المبلغ شامل الضريبة </label>
+              </div>
+            </div>
+            <div class="container row3 row m-2">
+                <div class="tax col-md col-sm col form-floating placeholder:text-center text-center">
                   <input type="number" class="form-control" disabled id="tax" value="" placeholder="Ex: ">
                   <label for="tax"> الضريبة </label>
                 </div>
-                <div class="beforeTax col-md col-sm col form-floating placeholder:text-center">
+                <div class="beforeTax col-md col-sm col form-floating placeholder:text-center text-center">
                   <input type="number" class="form-control " disabled id="beforeTax" value="" placeholder="Ex: ">
-                  <label for="beforeTax"> المبلغ بدون الضريبة </label>
+                  <label for="beforeTax"> بدون الضريبة </label>
                 </div>
+              </div>
       
       </div>
       <div class="container row3 row m-2">
-        <div class="beforeTax2 col-md col-sm col form-floating placeholder:text-center">
+      <div class="container row3 row m-2">
+        <div class="beforeTax2 col-md col-sm col form-floating placeholder:text-center text-center">
           <input type="number" class="form-control " id="beforeTax2" value="" placeholder="Ex: " onkeyup="taxing2();">
           <label for="beforeTax2"> المبلغ بدون الضريبة </label>
         </div>
-        <div class="tax2 col-md col-sm col form-floating placeholder:text-center">
+      </div>
+      <div class="container row3 row m-2">
+        <div class="tax2 col-md col-sm col form-floating placeholder:text-center text-center">
           <input type="number" class="form-control" disabled id="tax2" value="" placeholder="Ex: ">
           <label for="tax2"> الضريبة </label>
         </div>
-        <div class="afterTax2 col-md col-sm col form-floating placeholder:text-center">
+        <div class="afterTax2 col-md col-sm col form-floating placeholder:text-center text-center">
           <input type="number" class="form-control" disabled id="afterTax2" value="" placeholder="Ex:">
-          <label for="afterTax2"> المبلغ شامل الضريبة </label>
+          <label for="afterTax2"> شامل الضريبة </label>
+        </div>
         </div>
       
       </div>
